@@ -1,5 +1,3 @@
-**TODO** Fix spelling
-
 # colabeling
 
 **colabeling** is short for collaborative (image) labeling. This project is a prototype of a system that lets users label objects on images. A common task when preparing datasets for object detection using machine learning. The _colabeling_ aspect refers to the system's ability to support multiple users annotating the same image in real-time. This is achieved through [YJS](https://yjs.dev/), the powerful technology also used in creating collaborative applications like Google Docs. This system also utilizes the [Segment-Anything](https://segment-anything.com/) project by [Meta](https://about.meta.com/) to introduce some automation in the labeling process. This is done through an API which we developed and can be found in [here](https://github.com/loukaspapalazarou/segment-anything-flask-api.git).
