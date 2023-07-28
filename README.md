@@ -2,7 +2,7 @@
 
 # colabeling
 
-**colabeling** is short for collaborative (image) labeling. This project is a prototype of a system that lets users label objects on images. A common task when preparing datasets for object detection using machine learning. The _colabeling_ aspect refers to the system's ability to support multiple users annotating the same image in real-time. This is achieved through [YJS](https://yjs.dev/), the powerful technology also used in creating collaborative applications like Google Docs. This system also utilizes the [Segment-Anything](https://segment-anything.com/) project by [Meta](https://about.meta.com/) to introduce some automation in the labeling process. This is done through an API which we developed and can be found in [here](https://git.algolysis.com/smart-parts-detector/spdml-flask-sam-api).
+**colabeling** is short for collaborative (image) labeling. This project is a prototype of a system that lets users label objects on images. A common task when preparing datasets for object detection using machine learning. The _colabeling_ aspect refers to the system's ability to support multiple users annotating the same image in real-time. This is achieved through [YJS](https://yjs.dev/), the powerful technology also used in creating collaborative applications like Google Docs. This system also utilizes the [Segment-Anything](https://segment-anything.com/) project by [Meta](https://about.meta.com/) to introduce some automation in the labeling process. This is done through an API which we developed and can be found in [here](https://github.com/loukaspapalazarou/segment-anything-flask-api.git).
 
 ## Execution guide
 
@@ -11,7 +11,7 @@ To run the code before reading the rest of the docs follow these steps.
 1. Clone the repository
 
 ```bash
-git clone https://git.algolysis.com/smart-parts-detector/colabeling.git
+git clone [https://git.algolysis.com/smart-parts-detector/colabeling.git](https://github.com/loukaspapalazarou/segment-anything-flask-api.git)
 cd colabeling
 ```
 
@@ -26,7 +26,7 @@ npm install
 
 3. **(Optional)** Start the SAM API.
 
-Clone the [SAM API](https://git.algolysis.com/smart-parts-detector/spdml-flask-sam-api.git) repository and follow the instructions inside README.
+Clone the [SAM API](https://github.com/loukaspapalazarou/segment-anything-flask-api.git) repository and follow the instructions inside README.
 
 Make sure that `config.json` points to the correct host for the API.
 
