@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: rgb(82, 82, 82);
+  color: aliceblue;
+  display: flex; /* Enable flexbox */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
+  height: 100vh;
+}

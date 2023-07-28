@@ -1,0 +1,25 @@
+{
+  "USERNAME": "default_username",
+  "IMAGES": [
+    "./src/assets/images/11847.jpg",
+    "./src/assets/images/20230602_132623.jpg",
+    "./src/assets/images/test_img.jpg",
+    "./src/assets/images/00_mixed_parts.jpg",
+    "./src/assets/images/two_parts_cable.jpg"
+  ],
+  "LABELS": {
+    "Q001": "#ff0000",
+    "Q002": "#ff00ff",
+    "Q003": "#00ff00",
+    "Q004": "#00ffff"
+  },
+  "Y-WEBSOCKET": {
+    "HOST": "localhost",
+    "PORT": 1234,
+    "YPERSISTENCE": "./dbDir"
+  },
+  "SAM-API": {
+    "HOST": "localhost",
+    "PORT": 5000
+  }
+}
